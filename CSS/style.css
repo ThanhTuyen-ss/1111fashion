@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:opsz,wght@6..12,500&display=swap');
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.alumni-sans-sc {
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body{
+	font-family: "Alumni Sans SC", sans-serif; font-size: 17px; color: aqua; margin: 0
+}
+header{
+	width: 100%; height: 60px; background-color: #EFECEC; border-bottom: 1px solid darkred
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform: uppercase; color: #262626; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #FFA5ED
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#C6016A;
+      text-decoration: none; } 
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0; padding: 0; list-style: none;
+	display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #C0C0C0
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #666666; text-transform: capitalize
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+.sp{
+	font-size: 20px; font-weight: bold;color: #000000
+}
+p{
+	font-family: "Nunito Sans", sans-serif; color: #828282
+}
+footer{
+	width: 100%; min-height: 300px; background-color: #DDDDDD;
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block; padding: 10px; text-decoration: none
+}
+footer ul li a:hover{
+	color: white
+}
+.bg-xanh{
+	width: 100%; min-height: 300px; background-color: #888888; text-align: center
+}
+
+.text-den{
+	color: #000000;
+}
+.mr-10{
+	margin-right: 5px
+}
